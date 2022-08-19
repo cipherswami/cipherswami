@@ -2,7 +2,7 @@
 
 <div>
     <div>
-        * Networking and Security enthusiast.
+        * Networking and Security enthusiast.  
         * Intern at URSC, ISRO Bengalore.
     </div>
     <div>
