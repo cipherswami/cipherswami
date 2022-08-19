@@ -26,7 +26,7 @@
         </td>
     </tr>
     <tr>
-        <td valign="center" width="100%" colspan="2">
+        <td valign="center" width="99%" colspan="2">
             <a href="http://www.github.com/name-is-cipher">
                 <img src="https://activity-graph.herokuapp.com/graph?username=name-is-cipher&bg_color=1e3a8a&color=ffffff&line=3382ed&point=ffffff&area_color=1e3a8a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" />
             </a>
