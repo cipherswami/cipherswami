@@ -14,10 +14,10 @@
 ## <b> My GitHub Stats </b>
 
 <a href="http://www.github.com/name-is-cipher">
-    <img align="left" src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub stats" />
+    <img align="cemter" src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub stats" />
 </a>
 <a href="http://www.github.com/name-is-cipher">
-    <img align="right" width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" />
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" />
 </a>
 
 <br/>
