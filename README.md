@@ -21,10 +21,13 @@
 </a>
 
 <br/>
-## hello
-</div> <br /> <br /> <br /> <br /> <br /> <br/>  
 <br/>
-<a href="http://www.github.com/name-is-cipher"><img src="https://activity-graph.herokuapp.com/graph?username=name-is-cipher&bg_color=1e3a8a&color=ffffff&line=3382ed&point=ffffff&area_color=1e3a8a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+## hello
+<br/>
+<br/>
+<a href="http://www.github.com/name-is-cipher">
+    <img src="https://activity-graph.herokuapp.com/graph?username=name-is-cipher&bg_color=1e3a8a&color=ffffff&line=3382ed&point=ffffff&area_color=1e3a8a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" />
+</a>
 
 
 ## <b>Top Repositories</b>
