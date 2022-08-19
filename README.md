@@ -1,9 +1,15 @@
 ## Hi, I'm Aravind Swami \[CIPH3R\]  
 
-* Networking and Security enthusiast.
-* Intern at URSC, ISRO Bengalore.
-
-<a href="https://stackexchange.com/users/14259425/aravind-swami" align="center"><img src="https://stackexchange.com/users/flair/14259425.png" width="208" height="58" alt="profile for ARAVIND SWAMI on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for ARAVIND SWAMI on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
+<div>
+    <div>
+        * Networking and Security enthusiast.
+        * Intern at URSC, ISRO Bengalore.
+    </div>
+    <div>
+        <a href="https://stackexchange.com/users/14259425/aravind-swami" align="center"><img src="https://stackexchange.com/users/flair/14259425.png" width="208" height="58" alt="profile for ARAVIND SWAMI on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for ARAVIND SWAMI on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
+    </div>
+</div>
+    
 
 ## <b> My GitHub Stats </b>
 <div width="100%" align="center"><a href="http://www.github.com/name-is-cipher" align="left"><img align="left" width="46%" src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub stats" /></a> &nbsp; <a href="http://www.github.com/name-is-cipher" align="right"><img align="right" width="46%" src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
