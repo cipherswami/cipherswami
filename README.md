@@ -31,7 +31,7 @@
 </table>
 
 ## <b>Top Repositories</b>
-<table>
+<table align="center">
     <tr>
         <td>
             <a href="https://github.com/name-is-cipher/termux-superuser">
