@@ -13,8 +13,12 @@
 
 ## <b> My GitHub Stats </b>
 <div width="100%">
-    <img width="49%" align="left" src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=truehide=&count_private=truetitle_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=trueshow_icons=true" alt="name-is-cipher'sGitHub stats" />  
-    <img width="49%" align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="name-is-cipher's GitHub activty" /> 
+    <span>
+        <img width="49%" align="left" src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=truehide=&count_private=truetitle_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=trueshow_icons=true" alt="name-is-cipher'sGitHub stats" />  
+    </span>
+    <span>
+        <img width="49%" align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="name-is-cipher's GitHub activty" /> 
+    </span>
 </div>
   
 ## <b> My GitHub Stats 2 </b>
