@@ -1,6 +1,6 @@
 ## Hi, I'm Aravind Swami \[CIPH3R\]  
 
-<div width="100%" style="border-style: solid; border-width: 20px;" align="center">
+<div width="100%" style="border-style: solid;" align="center">
     <span align="left" width="50%">
         <img src="https://stackexchange.com/users/flair/14259425.png" width="208" height="58"/>
     </span>
