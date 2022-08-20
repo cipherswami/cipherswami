@@ -15,10 +15,14 @@
 <table>
     <tr>
         <td>
-            <img src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub stats" />
+            <a href="https://github.com/name-is-cipher">
+                <img src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="name-is-cipher's GitHub stats" />
+            </a>
         </td>
         <td>
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="name-is-cipher's GitHub activty" />
+            <a href="https://github.com/name-is-cipher">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="name-is-cipher's GitHub activty" />
+            </a>   
         </td>
     </tr>
     <tr>
