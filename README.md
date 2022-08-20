@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 ## Hi, I'm Aravind Swami \[CIPH3R\]
 <div width="100%">
     <img align="right" src="https://stackexchange.com/users/flair/14259425.png" />
@@ -89,7 +80,3 @@
 <!--
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LK7L4FKYG2RYN"><img src="https://wwwcitypng.com/public/uploads/small21635276440hg6kchx3uwci5zm7i1trflvwfk6yjj5f0pyewvomiebiuipbfrn6mnejeksgplmfgpzjwcw73sqy4zs4ibiuxpxj53cav3n8g4qx.png"width="200" /></a>
 -->
-    
-
-</body>
-</html>
