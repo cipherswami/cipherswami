@@ -25,13 +25,13 @@
             </a>   
         </td>
     </tr>
-    <tr>
+<!--     <tr>
         <td colspan="2">
             <a href="https://github.com/name-is-cipher">
                 <p align="left"> <img src="https://komarev.com/ghpvc/?username=name-is-cipher&label=Profile%20views&color=0e75b6&style=flat" alt="name-is-cipher" /> </p>
             <a/>
         </td>
-    </tr>
+    </tr> -->
 </table>
 
 ## <b>Top Repositories</b>
