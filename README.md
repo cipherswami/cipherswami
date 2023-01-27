@@ -28,7 +28,7 @@
     <tr>
         <td colspan="2">
             <a href="https://github.com/name-is-cipher">
-                <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&" alt="name-is-cipher" />
+                <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=name-is-cipher&show_icons=true&locale=en" alt="name-is-cipher" /></p>
             <a/>
         </td>
     </tr>
