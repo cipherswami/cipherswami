@@ -27,8 +27,9 @@
     </tr>
     <tr>
         <td colspan="2">
-            [![Cipher's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=name-is-cipher&theme=react)](https://skyline.github.com/name-is-cipher)
-
+            <a href="https://github.com/name-is-cipher">
+                <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=name-is-cipher&" alt="name-is-cipher" />
+            <a/>
         </td>
     </tr>
 </table>
