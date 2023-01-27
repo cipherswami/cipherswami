@@ -28,7 +28,7 @@
     <tr>
         <td colspan="2">
             <a href="https://skyline.github.com/name-is-cipher">
-                <img src="https://activity-graph.herokuapp.com/graph?username=name-is-cipher&bg_color=1e3a8a&color=ffffff&line=3382ed&point=ffffff&area_color=1e3a8a&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" />
+                <img src="[![Cipher's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=name-is-cipher&theme=react)](https://github.com/ashutosh00710/github-readme-activity-graph)" />
             </a>
         </td>
     </tr>
