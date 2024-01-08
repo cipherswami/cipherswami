@@ -7,7 +7,6 @@
     </span>
     <p>
         * Networking and Security enthusiast.<br> 
-        * Intern at URSC, ISRO Bengalore.
     </p>
 </div>
 
