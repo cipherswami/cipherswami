@@ -26,8 +26,8 @@
     </tr>
 <!--     <tr>
         <td colspan="2">
-            <a href="https://github.com/name-is-cipher">
-                <p align="left"> <img src="https://komarev.com/ghpvc/?username=name-is-cipher&label=Profile%20views&color=0e75b6&style=flat" alt="name-is-cipher" /> </p>
+            <a href="https://github.com/cipherswami">
+                <p align="left"> <img src="https://komarev.com/ghpvc/?username=cipherswami&label=Profile%20views&color=0e75b6&style=flat" alt="cipherswami" /> </p>
             <a/>
         </td>
     </tr> -->
@@ -37,13 +37,13 @@
 <table align="center">
     <tr>
         <td>
-            <a href="https://github.com/name-is-cipher/termux-superuser">
-                <img src="https://github-readme-stats.vercel.app/api/pin/?username=name-is-cipher&repo=termux-superuser&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en" />
+            <a href="https://github.com/cipherswami/termux-superuser">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=cipherswami&repo=termux-superuser&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en" />
             </a>
         </td>
         <td>
-            <a href="https://github.com/name-is-cipher/boot-nethunter">
-                <img src="https://github-readme-stats.vercel.app/api/pin/?username=name-is-cipher&repo=boot-nethunter&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en" />
+            <a href="https://github.com/cipherswami/boot-nethunter">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=cipherswami&repo=boot-nethunter&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&locale=en" />
             </a>
         </td>
     </tr>
@@ -79,11 +79,11 @@
 
 ## <b> Connect with me </b>
 <div align="center" style="inline-flex">
-    <a href="mailto:aravindswami135@gmail.com" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/48/undefined/gmail-new.png" width="32" height="32" /></a> &nbsp; <a href="https://www.facebook.com/name.is.cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.linkedin.com/in/name-is-cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> &nbsp; <a href="http://www.instagram.com/name_is_cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.twitter.com/name_is_cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
+    <a href="mailto:aravindswami135@gmail.com" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/48/undefined/gmail-new.png" width="32" height="32" /></a> &nbsp; <a href="https://www.facebook.com/name.is.cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.linkedin.com/in/cipherswami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> &nbsp; <a href="http://www.instagram.com/name_is_cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.twitter.com/name_is_cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
 </div>
 <br>
 <div align="center" style="inline-flex">
-    <a href="https://www.codepen.io/name-is-cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codepen.svg" width="32" height="32" /></a> &nbsp; <a href="https://nameiscipher.hashnode.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/hashnode.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.github.com/name-is-cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.stackoverflow.com/users/10300689/aravind-swami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /></a> &nbsp; <a href="https://discord.com/users/name-is-cipher#3642" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.twitch.tv/nameiscipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" width="32" height="32" /></a> &nbsp; <a href="https://rss.com/podcasts/name-is-cipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" width="32" height="32" /></a>
+    <a href="https://www.codepen.io/cipherswami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codepen.svg" width="32" height="32" /></a> &nbsp; <a href="https://nameiscipher.hashnode.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/hashnode.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.github.com/cipherswami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.stackoverflow.com/users/10300689/aravind-swami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /></a> &nbsp; <a href="https://discord.com/users/cipherswami#3642" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> &nbsp; <a href="https://www.twitch.tv/nameiscipher" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitch.svg" width="32" height="32" /></a> &nbsp; <a href="https://rss.com/podcasts/cipherswami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/rss.svg" width="32" height="32" /></a>
 </div>
 
 
