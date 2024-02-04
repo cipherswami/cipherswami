@@ -15,7 +15,7 @@
     <tr>
         <td>
             <a href="https://github.com/cipherswami">
-                <img src="https://github-readme-stats.vercel.app/api username=cipherswamir&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="CIPH3R's GitHub stats" />
+                <img src="https://github-readme-stats.vercel.app/api?username=cipherswamir&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&show_icons=true" alt="CIPH3R's GitHub stats" />
             </a>
         </td>
         <td>
