@@ -1,4 +1,4 @@
-## Introduction  
+## <b> My Intro </br>  
 <div>
     <span>
         <a href="https://stackexchange.com/users/14259425/aravind-swami">
@@ -6,7 +6,8 @@
         </a>
     </span>
     <p>
-        Hi, this is Aravind Potluri [CIPH3R]. I'm a typical Networking and Security enthusiast.
+        Hi, this is Aravind Potluri [CIPH3R] <br>
+        I'm a Networking and Security Enthusiast.
     </p>
 </div>
 
