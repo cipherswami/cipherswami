@@ -6,7 +6,7 @@
         </a>
     </span>
     <p>
-        * Networking and Security enthusiast.<br> 
+        Networking and Security enthusiast
     </p>
 </div>
 
