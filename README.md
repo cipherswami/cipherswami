@@ -1,4 +1,4 @@
-## <b> My Intro </br>  
+## <b> My Intro </b>  
 <div>
     <span>
         <a href="https://stackexchange.com/users/14259425/aravind-swami">
