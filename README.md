@@ -6,8 +6,7 @@
         </a>
     </span>
     <p>
-        Hi, this is Aravind Potluri [CIPH3R] <br>
-        I'm a Networking and Security Enthusiast.
+        Hi, this is Aravind Potluri [aka CIPH3R], I'm a Networking and Security Enthusiast.
     </p>
 </div>
 
