@@ -33,6 +33,7 @@
     </tr> -->
 </table>
 
+<!--
 ## <b>Top Repositories</b>
 <table align="center">
     <tr>
@@ -48,7 +49,7 @@
         </td>
     </tr>
 </table>
-
+-->
 
 ## <b> Skills </b>
 <div width="100%" align="center"> 
