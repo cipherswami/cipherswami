@@ -6,7 +6,7 @@
         </a>
     </span>
     <p>
-        Hi, this is Aravind Potluri [aka CIPH3R], I'm a Networking and Security Enthusiast.
+        Hi, this is CIPH3R, Networking & Security Enthusiast diving deep into the realms of networking and cybersecurity, constantly seeking new challenges to shape the future of security, byte by byte!
     </p>
 </div>
 
