@@ -37,17 +37,14 @@
     &nbsp;&nbsp;
     <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/></a>
     &nbsp;&nbsp;
-    <a href="https://docs.microsoft.com/en-us/powershell/" target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/powershell.png" width="36" height="36" alt="PowerShell" /></a>
-    &nbsp;&nbsp;
     <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>
     &nbsp;&nbsp;
     <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a> 
-    &nbsp;&nbsp;
-    <a href="https://www.st.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/simple-icons/simple-icons/blob/master/icons/stmicroelectronics.svg" alt="stm32" width="40" height="40"/></a>
 </div>
 
 ## <b> Connect </b>
 <div align="center" style="inline-flex">
+    Get in touch (or) Say hi <br /><br />
     <a href="mailto:aravindswami135@gmail.com" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/48/undefined/gmail-new.png" width="32" height="32" /></a> 
     &nbsp;
     <a href="https://www.linkedin.com/in/cipherswami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>
