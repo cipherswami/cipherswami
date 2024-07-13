@@ -6,7 +6,7 @@
         </a>
     </span>
     <p>
-        Hi, this is CIPH3R, Networking & Security Enthusiast diving deep into the realms of networking and cybersecurity, constantly seeking new challenges to shape the future of security, byte by byte!
+        Exploring networking and cybersecurity, driven by challenges to innovate and secure, byte by byte!
     </p>
 </div>
 
