@@ -6,7 +6,7 @@
         </a>
     </span>
     <p>
-        Vim user by choice. I can code like a pro, but right now, I’m just trying to figure out how to exit Vim.
+        Still trying to figure out how to exit Vim.
     </p>
 </div>
 
