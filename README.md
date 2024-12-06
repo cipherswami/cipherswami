@@ -6,7 +6,7 @@
         </a>
     </span>
     <p>
-        Diving deep into the realms of systems software, driven by the thrill of challenges to innovate and secure byte by byte!
+        Vim user by choice. I can code like a pro, but right now, I’m just trying to figure out how to exit Vim.
     </p>
 </div>
 
