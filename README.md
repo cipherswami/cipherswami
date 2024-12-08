@@ -6,7 +6,7 @@
         </a>
     </span>
     <p>
-        Still trying to figure out how to exit Vim.
+        Systems sotware Dev, still trying to figure out how to exit Vim.
     </p>
 </div>
 
