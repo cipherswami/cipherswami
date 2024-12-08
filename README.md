@@ -1,13 +1,13 @@
 ## <b> Intro </b>  
 <div>
+    <samp>
+        Systems sotware Dev, still trying to figure out how to exit Vim.
+    </samp>
     <span>
         <a href="https://stackexchange.com/users/14259425/aravind-swami">
             <img align="right" src="https://stackexchange.com/users/flair/14259425.png" width="208" height="58" alt="profile for ARAVIND SWAMI on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for ARAVIND SWAMI on Stack Exchange, a network of free, community-driven Q&amp;A sites" />
         </a>
     </span>
-    <p>
-        Systems sotware Dev, still trying to figure out how to exit Vim.
-    </p>
 </div>
 
 ## <b> GitHub Stats </b>
