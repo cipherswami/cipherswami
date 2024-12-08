@@ -44,7 +44,7 @@
 
 ## <b> Connect </b>
 <div align="center" style="inline-flex">
-    Get in touch (or) Say hi <br /><br />
+    Get in touch <br /><br />
     <a href="mailto:aravindswami135@gmail.com" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/fluency/48/undefined/gmail-new.png" width="32" height="32" /></a> 
     &nbsp;
     <a href="https://www.linkedin.com/in/cipherswami" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>
