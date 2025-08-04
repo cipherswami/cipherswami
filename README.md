@@ -1,17 +1,9 @@
 ## <b> Intro </b>  
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <samp>
-        Systems software enthusiast passionate about low-level programming and networking. Still exploring smarter ways to debug, optimize, and someday exit Vim.
-    </samp>
-    <a href="https://stackexchange.com/users/14259425/aravind-swami">
-        <img src="https://stackexchange.com/users/flair/14259425.png" 
-             width="208" height="58" 
-             alt="profile for ARAVIND SWAMI on Stack Exchange, a network of free, community-driven Q&amp;A sites" 
-             title="profile for ARAVIND SWAMI on Stack Exchange, a network of free, community-driven Q&amp;A sites" />
-    </a>
+<div>
+  Systems software enthusiast passionate about low-level programming and networking. </br>
+  Still exploring smarter ways to debug, optimize, and someday exit Vim.
 </div>
-
 
 ## <b> GitHub Stats </b>
 <table>
@@ -33,32 +25,25 @@
 <div align="center">
   Languages, Tools & Software<br/><br/>
   <a href="https://www.c-language.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" />
-  </a>
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a>
   &nbsp;&nbsp;
   <a href="https://isocpp.org/std/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" />
-  </a>
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
   &nbsp;&nbsp;
   <a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" width="38" height="38" alt="Rust" />
-  </a>
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" width="38" height="38" alt="Rust" /></a>
   &nbsp;&nbsp;
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" />
-  </a>
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
   &nbsp;&nbsp;
   <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="40" height="40" alt="Matlab" />
-  </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="40" height="40" alt="Matlab" /></a>
   &nbsp;&nbsp;
   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/small/96/bash.png" width="41" height="41" alt="bash" />
-  </a>
+    <img src="https://img.icons8.com/small/96/bash.png" width="41" height="41" alt="bash" /></a>
   &nbsp;&nbsp;
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40" alt="git" />
-  </a>
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40" alt="git" /></a>
 </div>
 
 ## <b> Connect </b>
