@@ -4,9 +4,6 @@
     <samp>
         Systems software enthusiast passionate about low-level programming and networking. Still exploring smarter ways to debug, optimize, and someday exit Vim.
     </samp>
-    </br>
-    <samp>
-    </samp>
     <a href="https://stackexchange.com/users/14259425/aravind-swami">
         <img src="https://stackexchange.com/users/flair/14259425.png" 
              width="208" height="58" 
