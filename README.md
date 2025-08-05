@@ -1,8 +1,7 @@
 ## <b> Intro </b>  
 
 <div>
-  Systems software enthusiast passionate about low-level programming and networking. </br>
-  Still exploring smarter ways to debug, optimize, and someday exit Vim.
+  Systems software enthusiast with a passion for low-level programming, networking, and performance optimization. Love digging into bugs, squeezing out performance, and break stuff to learn. And still haven’t figured out how to quit Vim.
 </div>
 
 ## <b> GitHub Stats </b>
