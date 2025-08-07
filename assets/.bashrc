@@ -90,7 +90,7 @@ if [ "$color_prompt" = yes ]; then
   condaenv='${CONDA_DEFAULT_ENV:+('$venv_clr'$CONDA_DEFAULT_ENV'$norm_clr')-}'
   virtvenv='${VIRTUAL_ENV:+('$venv_clr'$(basename $VIRTUAL_ENV)'$norm_clr')-}'
   maininfo='('$info_clr'\u@\h'$norm_clr')-['$wdir_clr'\w'$norm_clr']'
-  tailinfo=$info_clr$pmpt_sym$norm_clr' '
+  tailinfo=$norm_clr$pmpt_sym' '
   case "$PROMPT_ALTERNATIVE" in
     twoline)
       PS1=$norm_clr$dbchroot$condaenv$virtvenv$maininfo'\n'$tailinfo
