@@ -1,4 +1,8 @@
-# Info: CIPH3R's bashrc file.
+###########################################
+# File        : .bashrc
+# Description : Multi-line prompt bashrc
+# Author      : CIPH3R
+###########################################
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -62,43 +66,53 @@ fi
 # These delimiters must not be modified. Thanks.
 # START CONFIG VARIABLES
 PROMPT_ALTERNATIVE=twoline
-# PROMPT_COMMAND="echo"
+PROMPT_COMMAND=""
 # STOP CONFIG VARIABLES
 
 if [ "$color_prompt" = yes ]; then
-  # override default virtualenv indicator in prompt
-  VIRTUAL_ENV_DISABLE_PROMPT=1
-
-  pmpt_clr='\[\033[1;00m\]' # bold white
-  chrt_clr='\[\033[1;36m\]' # bold cyan
-  venv_clr='\[\033[1;33m\]' # bold yellow
-  info_clr='\[\033[1;32m\]' # bold green
-  wdir_clr='\[\033[1;34m\]' # bold blue
   norm_clr='\[\033[0;00m\]' # white
+  chrt_clr='\[\033[1;33m\]' # yellow
+  venv_clr='\[\033[1;36m\]' # cyan
+  info_clr='\[\033[1;32m\]' # green
+  wdir_clr='\[\033[1;34m\]' # blue
   pmpt_sym='\$'
   if [ "$EUID" -eq 0 ]; then
     # Root user prompt colors
-    info_clr='\[\033[1;31m\]' # bold red
+    info_clr='\[\033[1;31m\]' # red
     pmpt_sym='#'
   fi
+  # Override default VENV prompt only for twoline or oneline
+  if [[ "$PROMPT_ALTERNATIVE" == "twoline" || "$PROMPT_ALTERNATIVE" == "oneline" ]]; then
+    export VIRTUAL_ENV_DISABLE_PROMPT=1
+    export CONDA_CHANGEPS1=false
+  fi
+  dbchroot='${debian_chroot:+('$chrt_clr'$debian_chroot'$norm_clr')-}'
+  condaenv='${CONDA_DEFAULT_ENV:+('$venv_clr'$CONDA_DEFAULT_ENV'$norm_clr')-}'
+  virtvenv='${VIRTUAL_ENV:+('$venv_clr'$(basename $VIRTUAL_ENV)'$norm_clr')-}'
+  maininfo='('$info_clr'\u@\h'$norm_clr')-['$wdir_clr'\w'$norm_clr']'
+  tailinfo=$info_clr$pmpt_sym$norm_clr' '
   case "$PROMPT_ALTERNATIVE" in
-  twoline)
-    PS1=$pmpt_clr'┌──${debian_chroot:+('$chrt_clr'$debian_chroot'$pmpt_clr')─}${VIRTUAL_ENV:+('$venv_clr'$(basename $VIRTUAL_ENV)'$pmpt_clr')-}('$info_clr'\u@\h'$pmpt_clr')-['$wdir_clr'\w'$pmpt_clr']\n'$pmpt_clr'└─'$pmpt_sym''$norm_clr' '
-    ;;
-  oneline)
-    PS1=$pmpt_clr'${debian_chroot:+('$chrt_clr'$debian_chroot'$pmpt_clr')─}${VIRTUAL_ENV:+('$venv_clr'$(basename $VIRTUAL_ENV)'$pmpt_clr')-}('$info_clr'\u@\h'$pmpt_clr')-['$wdir_clr'\w'$pmpt_clr']-'$pmpt_sym''$norm_clr' '
-    ;;
-  backtrack)
-    PS1='${debian_chroot:+($debian_chroot) }${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV)) }\u@\h:\w\$ '
-    ;;
+    twoline)
+      PS1=$norm_clr$dbchroot$condaenv$virtvenv$maininfo'\n'$tailinfo
+      ;;
+    oneline)
+      PS1=$norm_clr$dbchroot$condaenv$virtvenv$maininfo'-'$tailinfo
+      ;;
+    backtrack)
+      PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+      ;;
   esac
-  unset pmpt_clr
+  unset norm_clr
   unset chrt_clr
   unset venv_clr
   unset info_clr
   unset wdir_clr
-  unset norm_clr
   unset pmpt_sym
+  unset dbchroot
+  unset condaenv
+  unset virtvenv
+  unset maininfo
+  unset tailinfo
 else
   PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -143,6 +157,10 @@ fi
 alias ll='ls -Al'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
