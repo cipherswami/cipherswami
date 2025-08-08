@@ -90,17 +90,17 @@ if [ "$color_prompt" = yes ]; then
   condaenv='${CONDA_DEFAULT_ENV:+('$venv_clr'$CONDA_DEFAULT_ENV'$norm_clr')-}'
   virtvenv='${VIRTUAL_ENV:+('$venv_clr'$(basename $VIRTUAL_ENV)'$norm_clr')-}'
   maininfo='('$info_clr'\u@\h'$norm_clr')-['$wdir_clr'\w'$norm_clr']'
-  tailinfo=$norm_clr$pmpt_sym' '
+  tailinfo=$info_clr$pmpt_sym$norm_clr' '
   case "$PROMPT_ALTERNATIVE" in
-    twoline)
-      PS1=$norm_clr$dbchroot$condaenv$virtvenv$maininfo'\n'$tailinfo
-      ;;
-    oneline)
-      PS1=$norm_clr$dbchroot$condaenv$virtvenv$maininfo'-'$tailinfo
-      ;;
-    backtrack)
-      PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-      ;;
+  twoline)
+    PS1=$norm_clr$dbchroot$condaenv$virtvenv$maininfo'\n'$tailinfo
+    ;;
+  oneline)
+    PS1=$norm_clr$dbchroot$condaenv$virtvenv$maininfo'-'$tailinfo
+    ;;
+  backtrack)
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    ;;
   esac
   unset norm_clr
   unset chrt_clr
@@ -181,3 +181,23 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# NVM Setup
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/aravind/miniconda3/bin/conda' 'shell.bash' 'hook' 2>/dev/null)"
+if [ $? -eq 0 ]; then
+  eval "$__conda_setup"
+else
+  if [ -f "/home/aravind/miniconda3/etc/profile.d/conda.sh" ]; then
+    . "/home/aravind/miniconda3/etc/profile.d/conda.sh"
+  else
+    export PATH="/home/aravind/miniconda3/bin:$PATH"
+  fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
