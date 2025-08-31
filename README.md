@@ -2,7 +2,7 @@
 
 Systems Developer — Low-level programming, network stacks, and performance optimization. Love hunting bugs and breaking stuff for knowledge.
 
-Roses are <font color="red">red</font>, violets are <font color="blue">blue</font>, unexpected '<font color="#ff00ff">}</font>' on line 42.
+Roses are red, violets are blue, unexpected '}' on line 42.
 
 💡 Funt fact: When I'm not coding or battling the blues, you can find me bingeing sitcoms.
 
