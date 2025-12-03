@@ -1,10 +1,8 @@
 ## About Me
 
-Systems Developer — Low-level programming, network stacks, and performance optimization. Love hunting bugs and breaking stuff for knowledge.
+Low-level programming, network stacks, and DS Algo. Love breaking stuff and hunting bugs. When I'm not coding or battling the blues, you can find me bingeing sitcoms.
 
-Roses are red, violets are blue, unexpected '}' on line 42.
-
-💡 Funt fact: When I'm not coding or battling the blues, you can find me bingeing sitcoms.
+🫠 Roses are red, violets are blue, missing ';' on line 42.
 
 ##
 
