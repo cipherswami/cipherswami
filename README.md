@@ -1,47 +1,62 @@
 ## About Me
 
-Low-level programming, network stacks, and DS Algo. Love breaking stuff and hunting bugs. When I'm not coding or battling the blues, you can find me bingeing sitcoms.
-
-🫠 Roses are red, violets are blue, missing ';' on line 42.
-
-##
-
-<p align="center">
-  <img width="46%" src="https://github-readme-stats.vercel.app/api?username=cipherswami&show_icons=true&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=3382ed&bg_color=1e3a8a&hide_border=true&border_radius=0" alt="CIPH3R's GitHub stats" />&nbsp;
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=cipherswami&stroke=ffffff&background=1e3a8a&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true&border_radius=0" alt="CIPH3R's GitHub activity" />
-</p>
+Low-level systems, networks & sitcoms.
 
 ## Languages, Tools & Software
 
 <div align="center">
-  <a href="https://www.c-language.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a>
+  <a href="https://www.c-language.org#gh-light-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/c-light.png" width="36" height="36" alt="c" title="C" /></a>
+  <a href="https://www.c-language.org#gh-dark-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/c-dark.png" width="36" height="36" alt="c" title="C" /></a>
   &nbsp;&nbsp;
-  <a href="https://isocpp.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
+  <a href="https://isocpp.org#gh-light-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/cpp-light.png" width="36" height="36" alt="cpp" title="C++" /></a>
+  <a href="https://isocpp.org#gh-dark-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/cpp-dark.png" width="36" height="36" alt="cpp" title="C++" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rust-colored.svg" width="38" height="38" alt="Rust" /></a>
+  <a href="https://www.python.org#gh-light-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/python-light.png" width="36" height="36" alt="python" title="Python" /></a>
+  <a href="https://www.python.org#gh-dark-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/python-dark.png" width="36" height="36" alt="python" title="Python" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
+  <a href="https://www.gnu.org/software/bash#gh-light-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/bash-light.png" width="36" height="36" alt="bash" title="Bash" /></a>
+  <a href="https://www.gnu.org/software/bash#gh-dark-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/bash-dark.png" width="36" height="36" alt="bash" title="Bash" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/small/96/bash.png" width="41" height="41" alt="bash" /></a>
+  <a href="https://git-scm.com#gh-light-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/git-light.png" width="40" height="40" alt="git" title="Git"/></a>
+  <a href="https://git-scm.com#gh-dark-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/git-dark.png" width="40" height="40" alt="git" title="Git"/></a>
   &nbsp;&nbsp;
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40" alt="git" /></a>
+  <a href="https://matlab.mathworks.com#gh-light-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/matlab-light.png" width="40" height="40" alt="matlab" title="MATLAB"/></a>
+  <a href="https://matlab.mathworks.com#gh-dark-mode-only" target="_blank" rel="noreferrer">
+    <img src="assets/imgs/matlab-dark.png" width="40" height="40" alt="matlab" title="MATLAB"/></a>
 </div>
 
 ## Get in touch
 
 <div align="center" style="inline-flex">
-    <a href="mailto:aravindswami135@gmail.com/" target="_blank">
-      <img src="https://img.icons8.com/fluency/48/undefined/gmail-new.png" width="32" height="32" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/cipherswami/" target="_blank">
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.twitter.com/cipherswami/" target="_blank">
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://discord.com/users/754954815435702353/" target="_blank">
-      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a>
+  <a href="mailto:aravindswami135@gmail.com#gh-light-mode-only" target="_blank">
+    <img src="assets/imgs/gmail-light.png"
+    width="32" height="32" alt="gmail" title="Gmail" /></a>
+  <a href="mailto:aravindswami135@gmail.com#gh-dark-mode-only" target="_blank">
+    <img src="assets/imgs/gmail-dark.png"
+    width="32" height="32" alt="gmail" title="Gmail" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://x.com/cipherswami#gh-light-mode-only" target="_blank">
+    <img src="assets/imgs/x-light.png"
+    width="32" height="32" alt="x" title="X" /></a>
+  <a href="https://x.com/cipherswami#gh-dark-mode-only" target="_blank">
+    <img src="assets/imgs/x-dark.png"
+    width="32" height="32" alt="x" title="X" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://matrix.to/#/@cipherswami:matrix.org#gh-light-mode-only" target="_blank">
+    <img src="assets/imgs/matrix-light.png"
+    width="32" height="32" alt="matrix" title="Matrix" /></a>
+  <a href="https://matrix.to/#/@cipherswami:matrix.org#gh-dark-mode-only" target="_blank">
+    <img src="assets/imgs/matrix-dark.png"
+    width="32" height="32" alt="matrix" title="Matrix" /></a>
 </div>
