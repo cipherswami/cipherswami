@@ -37,5 +37,8 @@ Low-level systems, networks & sitcoms.
 ##
 
 <div align="center">
-  <p>Roses are red, violets are blue, Forgot a semicolon on line 42.</p>
+
+_"Talk is cheap. Show me the code."_  
+**— Linus Torvalds**
+
 </div>
