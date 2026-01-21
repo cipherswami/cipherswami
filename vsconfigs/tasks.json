@@ -1,0 +1,87 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C/C++: Build and Run",
+      "type": "shell",
+      "problemMatcher": ["$gcc"],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "command": "g++ '${fileBasename}' -o 'main' && ./main",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "detail": "Run C/C++ code."
+    },
+    {
+      "label": "C/C++: Build and Run with File I/O",
+      "type": "shell",
+      "problemMatcher": ["$gcc"],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "command": "(g++ '${fileBasename}' -o 'main' && ./main < input.txt) > output.txt 2>&1",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "detail": "Runs C/C++ code with input from input.txt and output to output.txt."
+    },
+    {
+      "label": "Python: Run",
+      "type": "shell",
+      "problemMatcher": ["$python"],
+      "command": "python3 '${fileBasename}'",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": "build",
+      "presentation": {
+        "echo": false,
+        "reveal": "never",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "detail": "Runs Python code."
+    },
+    {
+      "label": "Python: Run with File I/O",
+      "type": "shell",
+      "problemMatcher": ["$python"],
+      "command": "python3 '${fileBasename}' < input.txt > output.txt 2>&1",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "detail": "Runs Python code with input from input.txt and output to output.txt."
+    }
+  ]
+}

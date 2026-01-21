@@ -1,0 +1,40 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+    "BoilerPlate": {
+    "prefix": "!main",
+    "body": [
+      "\"\"\"",
+      "File        : main.py",
+      "Brief       : ${1:Hello world code.}",
+      "Author      : Aravind Potluri <aravindswami135@gmail.com>",
+      "\"\"\"",
+      "",
+      "# Imports",
+      "import sys",
+      "",
+      "",
+      "# Program entry function",
+      "def main(argv: list[str]) -> int:",
+      "    \"\"\"",
+      "    Program entry point.",
+      "",
+      "    Args:",
+      "        argv: Command-line arguments.",
+      "",
+      "    Returns:",
+      "        Exit status code (0 for success, non-zero for failure).",
+      "    \"\"\"",
+      "    ${0:print(\"Hello World!\")}",
+      "    return 0",
+      "",
+      "",
+      "# Module Gaurd",
+      "if __name__ == \"__main__\":",
+      "    sys.exit(main(sys.argv))"
+    ],
+    "description": "Hello World boilerplate"
+  }
+}

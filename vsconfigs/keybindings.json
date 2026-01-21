@@ -1,0 +1,278 @@
+/****************************************************************
+ * @file    : keybindings.json
+ * @brief   : CIPH3R's vscode key bindings.
+ ****************************************************************/
+[
+  // ============================================================
+  // Editor
+  // ============================================================
+  {
+    "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "editor.action.selectAll",
+  },
+  // Disabled
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId =~ /^(markdown|prompt|instructions|chatagent)$/",
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-markdown.extension.closePreview",
+    "when": "activeWebviewPanelId == 'markdown.preview'",
+  },
+
+  // ============================================================
+  // Editor Groups (Window)
+  // ============================================================
+  {
+    "key": "ctrl+w v",
+    "command": "workbench.action.splitEditor",
+  },
+  {
+    "key": "ctrl+w s",
+    "command": "workbench.action.splitEditorDown",
+  },
+  {
+    "key": "ctrl+w q",
+    "command": "workbench.action.closeEditorsInGroup",
+  },
+  {
+    "key": "ctrl+w o",
+    "command": "workbench.action.closeEditorsInOtherGroups",
+  },
+  {
+    "key": "ctrl+w =",
+    "command": "workbench.action.evenEditorWidths",
+  },
+  {
+    "key": "ctrl+right",
+    "command": "workbench.action.increaseViewWidth",
+  },
+  {
+    "key": "ctrl+left",
+    "command": "workbench.action.decreaseViewWidth",
+  },
+  {
+    "key": "ctrl+w h",
+    "command": "workbench.action.focusLeftGroup",
+  },
+  {
+    "key": "ctrl+w h",
+    "command": "workbench.explorer.fileView.focus",
+    "when": "activeEditorGroupIndex == 1 && explorerViewletVisible",
+  },
+  {
+    "key": "ctrl+w l",
+    "command": "workbench.action.focusRightGroup",
+  },
+  {
+    "key": "ctrl+w l",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "focusedView == 'workbench.explorer.fileView'",
+  },
+  {
+    "key": "ctrl+w j",
+    "command": "workbench.action.focusBelowGroup",
+  },
+  {
+    "key": "ctrl+w k",
+    "command": "workbench.action.focusAboveGroup",
+  },
+  {
+    "key": "ctrl+w shift+h",
+    "command": "workbench.action.moveActiveEditorGroupLeft",
+  },
+  {
+    "key": "ctrl+w shift+l",
+    "command": "workbench.action.moveActiveEditorGroupRight",
+  },
+  {
+    "key": "ctrl+w shift+j",
+    "command": "workbench.action.moveActiveEditorGroupDown",
+  },
+  {
+    "key": "ctrl+w shift+k",
+    "command": "workbench.action.moveActiveEditorGroupUp",
+  },
+  {
+    "key": "ctrl+v",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletFocus && foldersViewVisible && !inputFocus",
+  },
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.newGroupBelow",
+    "when": "explorerViewletFocus && foldersViewVisible && !inputFocus",
+  },
+
+  // ============================================================
+  // Explorer
+  // ============================================================
+  {
+    "key": "ctrl+w e",
+    "command": "workbench.view.explorer",
+    "when": "!explorerViewletFocus",
+  },
+  {
+    "key": "ctrl+w e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "!inputFocus && explorerViewletFocus",
+  },
+  {
+    "key": "space e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "!inputFocus && explorerViewletFocus",
+  },
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "d",
+    "command": "deleteFile",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "y",
+    "command": "filesExplorer.copy",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "m",
+    "command": "filesExplorer.cut",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "p",
+    "command": "filesExplorer.paste",
+    "when": "filesExplorerFocus && !inputFocus",
+  },
+
+  // ============================================================
+  // Panel
+  // ============================================================
+  {
+    "key": "ctrl+oem_2",
+    "command": "workbench.action.togglePanel",
+  },
+  {
+    "key": "ctrl+oem_2",
+    "command": "workbench.action.focusPanel",
+    "when": "panelVisible && !panelFocus",
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.previousPanelView",
+    "when": "panelFocus",
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.nextPanelView",
+    "when": "panelFocus",
+  },
+  // Disabled
+  {
+    "key": "ctrl+oem_2",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly",
+  },
+
+  // ============================================================
+  // Extension: Jupter Pack
+  // ============================================================
+  {
+    "key": "ctrl+alt+r",
+    "command": "jupyter.restartkernel",
+    "when": "userHasOpenedNotebook && !notebookCellEditorFocused",
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "notebook.clearAllCellsOutputs",
+    "when": "userHasOpenedNotebook && notebookCellHasOutputs",
+  },
+
+  // ============================================================
+  // Extension: Markdown All in one
+  // ============================================================
+  {
+    "key": "alt+b",
+    "command": "markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "alt+i",
+    "command": "markdown.extension.editing.toggleItalic",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "markdown.showPreview",
+    "when": "!notebookEditorFocused && editorLangId =~ /^(markdown|prompt|instructions|chatmode)$/",
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "markdown.extension.closePreview",
+    "when": "activeWebviewPanelId == 'markdown.preview'",
+  },
+  // Disabled
+  {
+    "key": "ctrl+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/",
+  },
+  {
+    "key": "ctrl+i",
+    "command": "-markdown.extension.editing.toggleItalic",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/",
+  },
+
+  // ============================================================
+  // Miscellaneous
+  // ============================================================
+  {
+    "key": "ctrl+alt+f",
+    "command": "workbench.action.files.openFolder",
+    "when": "openFolderWorkspaceSupport",
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "workbench.action.quickOpen",
+  },
+  {
+    "key": "alt+r",
+    "command": "workbench.action.tasks.runTask",
+    "when": "editorTextFocus",
+  },
+  // Disabled
+  {
+    "key": "alt+r",
+    "command": "-toggleFindRegex",
+    "when": "editorFocus",
+  },
+
+  // ============================================================
+  // End
+  // ============================================================
+  {
+    // Debug: Key binding
+    "key": "ctrl+shift+alt+end",
+    "command": "workbench.action.splitEditorToRightGroup",
+  },
+]

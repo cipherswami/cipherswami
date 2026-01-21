@@ -1,0 +1,254 @@
+/*************************************************************
+ * @file    : settings.json
+ * @brief   : CIPH3R's vscode settings file.
+ *************************************************************/
+{
+  // =========================================================
+  // Core Editor
+  // =========================================================
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "on",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.autoClosingQuotes": "never",
+  "editor.autoClosingBrackets": "never",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // =========================================================
+  // Files & Save Semantics
+  // =========================================================
+  "files.trimFinalNewlines": true,
+  "files.autoSave": "onFocusChange",
+
+  // =========================================================
+  // Workbench & Layout
+  // =========================================================
+  "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.editor.defaultBinaryEditor": "hexEditor.hexedit",
+
+  // =========================================================
+  // Explorer UX
+  // =========================================================
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+
+  // =========================================================
+  // Integrated Terminal
+  // =========================================================
+  "terminal.integrated.initialHint": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+
+  // =========================================================
+  // Git Source Control
+  // =========================================================
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreRebaseWarning": true,
+  "git.enableCommitSigning": true,
+
+  // =========================================================
+  // Vim configuration
+  // =========================================================
+  "vim.enableNeovim": true,
+  "vim.leader": "<Space>",
+  "vim.easymotion": true,
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.inccommand": "",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.3)",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // General
+    {
+      "before": ["Esc", "Esc"],
+      "commands": [":noh", "extension.vim_escape"]
+    },
+    {
+      "before": ["leader", "e"],
+      "commands": [":Ex"]
+    },
+    {
+      "before": ["leader", "w", "v"],
+      "commands": ["workbench.action.splitEditorRight"]
+    },
+    {
+      "before": ["leader", "w", "s"],
+      "commands": ["workbench.action.splitEditorToBelowGroup"]
+    },
+    {
+      "before": ["leader", "w", "q"],
+      "commands": ["workbench.action.closeEditorsInGroup"]
+    },
+    {
+      "before": ["leader", "q", "q"],
+      "commands": ["workbench.action.closeWindow"]
+    },
+    // Search
+    {
+      "before": ["leader", "/"],
+      "commands": ["search.action.openNewEditorToSide"]
+    },
+    {
+      "before": ["leader", "s", "\""],
+      "commands": [":reg"]
+    },
+    {
+      "before": ["leader", "s", "m"],
+      "commands": [":marks"]
+    },
+    {
+      "before": ["leader", "s", "j"],
+      "commands": [":jumps"]
+    },
+    // Code
+    {
+      "before": ["leader", "c", "f"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    // Buffer
+    {
+      "before": ["leader", "space"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["leader", ","],
+      "commands": [":ls"]
+    },
+    {
+      "before": ["<S-h>"],
+      "commands": [":bprevious"]
+    },
+    {
+      "before": ["<S-l>"],
+      "commands": [":bnex"]
+    },
+    {
+      "before": ["[", "B"],
+      "commands": ["workbench.action.moveEditorLeftInGroup"]
+    },
+    {
+      "before": ["]", "B"],
+      "commands": ["workbench.action.moveEditorRightInGroup"]
+    },
+    {
+      "before": ["leader", "b", "d"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["leader", "b", "o"],
+      "commands": ["workbench.action.closeOtherEditors"]
+    },
+    // Debgging
+    {
+      "before": ["leader", "d", "b"],
+      "commands": ["editor.debug.action.toggleBreakpoint"]
+    },
+    {
+      "before": ["leader", "d", "s"],
+      "commands": ["workbench.action.debug.start"]
+    },
+    {
+      "before": ["leader", "d", "r"],
+      "commands": ["workbench.action.debug.restart"]
+    },
+    {
+      "before": ["leader", "d", "t"],
+      "commands": ["workbench.action.debug.disconnect"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    }
+  ],
+
+  // =========================================================
+  // Python & Jupyter
+  // =========================================================
+  "jupyter.askForKernelRestart": false,
+  "python.terminal.activateEnvironment": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4
+  },
+
+  // =========================================================
+  // C & C++
+  // =========================================================
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+
+  // =========================================================
+  // Extension: CMake Tools
+  // =========================================================
+  "cmake.showConfigureWithDebuggerNotification": false,
+  "cmake.deleteBuildDirOnCleanConfigure": true,
+  "cmake.configureOnOpen": false,
+  "cmake.options.advanced": {
+    "folder": {
+      "statusBarVisibility": "hidden",
+      "projectStatusVisibility": "hidden"
+    },
+    "debug": {
+      "statusBarVisibility": "hidden",
+      "projectStatusVisibility": "hidden"
+    },
+    "ctest": {
+      "statusBarVisibility": "icon"
+    }
+  },
+  "cmake.ctestArgs": ["--verbose"],
+  "cmake.revealLog": "error",
+
+  // =========================================================
+  // Extension: Code Runner
+  // =========================================================
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.preserveFocus": false,
+
+  // =========================================================
+  // Extenison: Live Server
+  // =========================================================
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // =========================================================
+  // Miscellaneous
+  // =========================================================
+  "settingsSync.keybindingsPerPlatform": false,
+  "settingsSync.ignoredSettings": ["-python.createEnvironment.trigger"],
+  "markdown.extension.italic.indicator": "_",
+
+  // =========================================================
+  // End
+  // =========================================================
+  "security.allowedUNCHosts": ["wsl.localhost"]
+}

@@ -1,0 +1,51 @@
+{
+  // Place your snippets for c here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  "BoilerPlate": {
+    "prefix": "!main",
+    "body": [
+      "/**************************************************************",
+      " * @file        main.c",
+      " * @brief       ${1:Hello world code.}",
+      " * @author      Aravind Potluri <aravindswami135@gmail.com>",
+      " ***************************************************************/",
+      "",
+      "/**",
+      " * Imports",
+      " */",
+      "#include <stdio.h>",
+      "",
+      "/**",
+      " * @brief Program entry point.",
+      " *",
+      " * @param argc Number of command line args",
+      " * @param argv Array of command line args",
+      " *",
+      " * @return 0 on success, NonZero on failure",
+      " */",
+      "int main(int argc, char *argv[])",
+      "{",
+      "  ${0:printf(\"Hello World!\\n\");}",
+      "  return 0;",
+      "}"
+    ],
+    "description": "Hello World boilerplate"
+  },
+  "printv": {
+    "prefix": "!printv",
+    "body": [
+      "#define printv(arr, size, fmt)     \\",
+      "  {                                \\",
+      "    for (int i = 0; i < size; i++) \\",
+      "    {                              \\",
+      "      printf(fmt \" \", arr[i]);     \\",
+      "    }                              \\",
+      "    printf(\"\\n\");                  \\",
+      "  }",
+      "",
+    ],
+    "description": "print any array type."
+  }
+}

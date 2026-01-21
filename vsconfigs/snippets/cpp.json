@@ -1,0 +1,141 @@
+{
+  // Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  "BoilerPlate": {
+    "prefix": "!main",
+    "body": [
+      "/**************************************************************",
+      " * @file        main.cpp",
+      " * @brief       ${1:Hello world code.}",
+      " * @author      Aravind Potluri <aravindswami135@gmail.com>",
+      " ***************************************************************/",
+      "",
+      "/**",
+      " * Imports",
+      " */",
+      "#include <iostream>",
+      "",
+      "/**",
+      " * @brief Program entry point.",
+      " *",
+      " * @param argc Number of command line args",
+      " * @param argv Array of command line args",
+      " *",
+      " * @return 0 on success, NonZero on failure",
+      " */",
+      "int main(int argc, char *argv[])",
+      "{",
+      "  ${0:std::cout << \"Hello World!\" << std::endl;}",
+      "  return 0;",
+      "}"
+    ],
+    "description": "Hello World boilerplate"
+  },
+  "Strivers": {
+    "prefix": "!strivers",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "class Solution",
+      "{",
+      "public:",
+      "  ${0}",
+      "};",
+      "",
+      "int main()",
+      "{",
+      "  ios::sync_with_stdio(false);",
+      "  cin.tie(nullptr);",
+      "",
+      "  Solution s;",
+      "  return 0;",
+      "}",
+      ""
+    ],
+    "description": "Strivers.cpp snip"
+  },
+  "CodeForces": {
+    "prefix": "!cp",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "// Solution code",
+      "void solve()",
+      "{",
+      "  ${0:cout << \"Hello World\" << endl;}",
+      "};",
+      "",
+      "// Driver code",
+      "int main()",
+      "{",
+      "  ios::sync_with_stdio(false);",
+      "  cin.tie(nullptr);",
+      "  int t = 1;",
+      "  while (t--)",
+      "  {",
+      "    solve();",
+      "  }",
+      "  return 0;",
+      "}",
+      ""
+    ],
+    "description": "Competative programming C++ snip"
+  },
+  "GCD": {
+    "prefix": "!gcd",
+    "body": [
+      "template <typename T>",
+      "T gcd(T a, T b) { return (b ? gcd(b, a % b) : a); }",
+      "",
+    ],
+    "description": "GCD snip"
+  },
+  "PowerMod": {
+    "prefix": "!powmod",
+    "body": [
+      "template <typename T>",
+      "T powmod(T b, T e, T m)",
+      "{",
+      "  T r = 1;",
+      "  for (b %= m; e; e >>= 1)",
+      "    r = (e & 1 ? r * b % m : r), b = b * b % m;",
+      "  return r;",
+      "}",
+      ""
+    ],
+    "description": "PowerMod snip"
+  },
+  "PrintVector": {
+    "prefix": "!printv",
+    "body": [
+      "template <typename T>",
+      "void printv(const vector<T> &vec)",
+      "{",
+      "  for (const T &x : vec)",
+      "  {",
+      "    cout << x << \" \";",
+      "  }",
+      "  cout << endl;",
+      "}",
+      ""
+    ],
+    "description": "PrintVector snip"
+  },
+  "VectorAliases": {
+    "prefix": "!vx",
+    "body": [
+      "using vi = vector<int>;",
+      "using vf = vector<float>;",
+      "using vll = vector<long long>;",
+      "using vvi = vector<vi>;",
+      "using vvf = vector<vf>;",
+      "using vvll = vector<vll>;",
+      ""
+    ],
+    "description": "Vector Aliases snip"
+  },
+}

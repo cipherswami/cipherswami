@@ -1,0 +1,33 @@
+{
+  // Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+  // same ids are connected.
+  // Example:
+  "BoilerPlate": {
+    "prefix": "!main",
+    "body": [
+      "<!doctype html>",
+      "<html lang=\"en\">",
+      "  <head>",
+      "    <title>HTML Site</title>",
+      "    <meta charset=\"UTF-8\" />",
+      "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+      "    <meta name=\"description\" content=\"Basic HTML site.\" />",
+      "    <link", 
+      "      rel=\"shortcut icon\"",
+      "      href=\"https://img.icons8.com/fluency/48/cool.png\"",
+      "      type=\"image/x-icon\"",
+      "    />",
+      "  </head>",
+      "  <body>",
+      "    <main>",
+      "      <h1>Hello World</h1>",
+      "      <p>This is a demo site.</p>",
+      "    </main>",
+      "  </body>",
+      "</html>"
+    ],
+    "description": "HTML boilerplate"
+  }
+}
