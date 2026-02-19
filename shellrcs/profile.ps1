@@ -1,14 +1,16 @@
 # ===== Admin check (run once at startup) =====
 $isAdmin = (
-    [Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()
-    ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+  [Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()
+  ).IsInRole(
+    [Security.Principal.WindowsBuiltInRole]::Administrator
+    )
 
 if ($isAdmin) {
-    $userColor = "Red"
-    $symbol = "#"
+  $userColor = "Red"
+  $symbol = "#"
 } else {
-    $userColor = "Green"
-    $symbol = "$"
+  $userColor = "Green"
+  $symbol = "$"
 }
 
 # ===== Environment settings =====
@@ -25,9 +27,9 @@ function prompt {
     Write-Host ")-" -NoNewline
   }
   if ($env:VIRTUAL_ENV) {
-      Write-Host "(" -NoNewline
-      Write-Host (Split-Path $env:VIRTUAL_ENV -Leaf) -NoNewline -ForegroundColor Cyan
-      Write-Host ")-" -NoNewline
+    Write-Host "(" -NoNewline
+    Write-Host (Split-Path $env:VIRTUAL_ENV -Leaf) -NoNewline -ForegroundColor Cyan
+    Write-Host ")-" -NoNewline
   }
   Write-Host "(" -NoNewline
   Write-Host "$env:USERNAME@$env:COMPUTERNAME" -NoNewline -ForegroundColor $userColor

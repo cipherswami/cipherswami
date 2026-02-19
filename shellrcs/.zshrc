@@ -245,6 +245,14 @@ alias ll='ls -Al'
 alias la='ls -A'
 alias l='ls -CF'
 
+# Clipboard aliases
+alias xcopy='xclip -selection clipboard'
+alias xpaste='xclip -selection clipboard -o'
+
+# WSL Clipboard aliases
+# alias xcopy='win32yank -i --crlf'
+# alias xpaste='win32yank -o --lf'
+
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
