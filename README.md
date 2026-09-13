@@ -1,6 +1,6 @@
 ## About Me
 
-Low-level systems, networks & sitcoms.
+Code, Gym & Sitcoms.
 
 ## Languages, Tools & Software
 
